@@ -1,0 +1,361 @@
+body {
+    margin: 0;
+    background: rgb(238 241 254);
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-align-center {
+    text-align: center;
+}
+.page {
+    position: relative;
+    width: 1000px;
+    height: 1600px;
+    margin: 12vh auto;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.4);
+}
+
+.general-info {
+    position: absolute;
+    width: 100%;
+    text-overflow: clip;
+    height: 25%;
+    background-color:rgb(178 178 250);
+}
+
+.muhammed-yasir, .ozdemir {
+    position: absolute;
+    font-size: 48px;
+    cursor: default;
+    text-shadow: 0px 0px 5px rgb(72, 75, 157);
+}
+
+.muhammed-yasir {
+    left: 100px;
+    margin-top: 0;
+    top: 40px;
+}
+
+.ozdemir {
+    top: 60px;
+    left: 200px;
+}
+
+.who-am-i {
+    position: absolute;
+    top: 150px;
+    left: 75px;
+    font-size: 16px;
+    cursor: default;
+}
+
+.welcome {
+    position: absolute;
+    display: inline-block;
+    width: 500px;
+    top: 195px;
+    border-left: solid 2px rgb(2 2 3);
+    padding-left: 15px;
+    margin-left: 58px;
+    font-size: 18px;
+    cursor: default;
+}
+
+.photo-container {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: solid 2px rgba(2, 2, 3, 0.804);
+    top: 50px;
+    right: 50px;
+    transform: translateY(0px);
+    transition: transform 1000ms;
+    box-shadow: 0 0 10px rgb(72, 75, 157);
+}
+
+.photo-container:hover {
+    transform: translateY(-10px);
+}
+
+.photo {
+    width: 100%;
+    height: 100%;
+}
+
+.social-icons-container {
+    height: 30px;
+    position: absolute;
+    bottom: 27px;
+    left: 212px;
+}
+
+.social-icons {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.628);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    transition: background-color 100ms, box-shadow 100ms, transform 250ms;
+    transform: translateY(0px);
+}
+
+.social-icons:hover {
+    background-color: rgba(255, 255, 255, 0.81);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    transform: translateY(-2.5px);
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: black;
+    margin-top: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.education, .experiences, .interests {
+    position: absolute;
+    width: 100%;
+    height: 25%;
+}
+
+.education {
+    position: relative;
+    top: 25%;
+    background-color: rgb(170 196 250);
+    font-size: 18px;
+}
+
+.edu {
+    position: relative;
+    top: 10px;
+    cursor: default;
+}
+
+.education p, .experiences p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    cursor: default;
+}
+
+.bold-text {
+    font-weight: 700;
+}
+
+.low-op-text {
+    opacity: 70%;
+}
+
+.marmara-uni-logo, .epicode-logo, .agu-logo, .great-wolf-lodge-logo, .yetgen-logo {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border: solid 1px black;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    transition: box-shadow 100ms, transform 250ms;
+    transform: translateY(0px);
+}
+
+.marmara-uni-logo:hover, .epicode-logo:hover, .agu-logo:hover, .great-wolf-lodge-logo:hover, .yetgen-logo:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    transform: translateY(-2.5px);
+}
+
+.marmara-uni-text, .epicode-text, .agu-text, .great-wolf-lodge-text, .yetgen-text {
+    position: absolute;
+}
+
+.education-and-experiences-logos {
+    width: 100%;
+    height: 100%;
+}
+
+.marmara-uni-logo {
+    top: 90px;
+    left: 20px;
+}
+
+.marmara-uni-text {
+    left: 100px;
+}
+
+.epicode-logo {
+    right: 20px;
+    bottom: 133px;
+}
+
+.epicode-text {
+    text-align: right;
+    right: 100px;
+    bottom: 100px;
+}
+
+.agu-logo{
+    bottom: 55px;
+    left: 20px;
+}
+
+.agu-text{
+    bottom: 20px;
+    left: 100px;
+}
+
+.experiences {
+    top: 50%;
+    background-color: rgb(210 217 252);
+}
+
+.great-wolf-lodge-logo {
+    top: 114px;
+    left: 20px;
+}
+
+.great-wolf-lodge-text {
+    left: 100px;
+}
+
+.yetgen-logo {
+    right: 20px;
+    bottom: 116px;
+}
+
+.yetgen-text {
+    text-align: right;
+    right: 100px;
+    bottom: 100px;
+}
+
+.interests {
+    top: 75%;
+    background-color: rgb(238 241 254)
+}
+
+.interests h2, .interests p {
+    cursor: default;
+}
+
+.will-be-completed {
+    text-align: center;
+    font-weight: 700;
+    font-size: 64px;
+    margin-top: 100px;
+}
+
+
+.photo {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.photo-container-1 {
+    position: absolute;
+    left: 95px;
+    width: 225px;
+    height: 270px;
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: 0 0 5px rgba(23, 1, 0, 0.373);
+    transition: box-shadow 500ms;
+}
+.photo-container-1:hover {
+    box-shadow: 0 0 15px rgba(23, 1, 0, 0.718);
+}
+
+.overlay-1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0%;
+    background-color: black;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    transition: opacity 500ms;
+}
+
+.photo-container-1:hover .overlay-1 {
+    opacity: 60%;
+}
+
+.photo-container-2 {
+    position: absolute;
+    left: 385px;
+    width: 225px;
+    height: 270px;
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: 0 0 5px rgba(23, 1, 0, 0.373);
+    transition: box-shadow 500ms;
+}
+.photo-container-2:hover {
+    box-shadow: 0 0 15px rgba(23, 1, 0, 0.718);
+}
+
+.overlay-2 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0%;
+    background-color: black;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    transition: opacity 500ms;
+}
+
+.photo-container-2:hover .overlay-2 {
+    opacity: 60%;
+}
+
+.photo-container-3 {
+    position: absolute;
+    right: 95px;
+    width: 225px;
+    height: 270px;
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: 0 0 5px rgba(23, 1, 0, 0.373);
+    transition: box-shadow 500ms;
+}
+.photo-container-3:hover {
+    box-shadow: 0 0 15px rgba(23, 1, 0, 0.718);
+}
+
+.overlay-3 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0%;
+    background-color: black;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    transition: opacity 500ms;
+}
+
+.photo-container-3:hover .overlay-3 {
+    opacity: 60%;
+}
